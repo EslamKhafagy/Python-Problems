@@ -29,9 +29,50 @@ a = ["name", "age", "city"]
 b = ["mohamed", 30, "cairo"]
 
 10- Write a Python function to find the maximum of three numbers.
-
-11- Write a Python function to calculate the factorial of a number.
  
+11- Write a Python function to calculate the factorial of a number.
+
 12- Write a Python function to print the even numbers from a given list.
+
 Sample List : [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
 Expected Result : [2, 4, 6, 8]
+ 
+13- Write a function in Python to count uppercase character in a text file and write output to file.
+
+cat f1.txt
+
+   I lOvE pyThon.
+ 
+14- Write a Python function to read a given CSV file as a dictionary. use csv.DictReader function.
+
+CSV file:
+
+vin,make,model,year,range,topSpeed,zeroSixty,mileage
+
+TMX20122,AnyCompany Motors, Coupe, 2012, 335, 155, 4.1, 50000
+
+TM320163,AnyCompany Motors, Sedan, 2016, 240, 140, 5.2, 20000
+
+TMX20121,AnyCompany Motors, SUV, 2012, 295, 155, 4.7, 100000
+
+TMX20204,AnyCompany Motors, Truck, 2020, 300, 155, 3.5, 0
+ 
+15- Write a function in Python to count the number of lines from a text file "file1.txt" which is not starting with an alphabet "t".
+
+cat file1.txt
+
+Elephants are the largest existing land animals.
+
+Three living species are currently recognized: the African bush elephant, the African forest elephant, and the Asian elephant.
+
+They are the only surviving members of the family Elephantidae and the order Proboscidea.
+
+The order was formerly much more diverse during the Pleistocene, but most species became extinct during the Late Pleistocene epoch.
+
+Distinctive features of elephants include a long proboscis called a trunk, tusks, large ear flaps, pillar-like legs, and tough but sensitive skin.
+
+The trunk is used for breathing, bringing food and water to the mouth, and grasping objects.
+ 
+16- Write a python function the user will enter a file name and you are required to read that file and print the number of words in it.
+ 
