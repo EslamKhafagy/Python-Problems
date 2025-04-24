@@ -76,3 +76,5 @@ The trunk is used for breathing, bringing food and water to the mouth, and grasp
  
 16- Write a python function the user will enter a file name and you are required to read that file and print the number of words in it.
  
+17- write a function to move all zero in an integer to the end
+1020304050  >>>>  1234500000
