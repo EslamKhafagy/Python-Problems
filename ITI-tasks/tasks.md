@@ -78,3 +78,9 @@ The trunk is used for breathing, bringing food and water to the mouth, and grasp
  
 17- write a function to move all zero in an integer to the end
 1020304050  >>>>  1234500000
+
+18- python script to test connectivity to IP addr, take it from user.
+
+19- Python script to create 25 file from f1 to f25.
+
+20- Check if you have an account with name ITI in your machine.
