@@ -7,7 +7,7 @@ import subprocess
 
 flist = []
 
-for i in range(24):
+for i in range(25):
     n=str(i+1)
     flist.append("f"+n)
 
@@ -16,8 +16,8 @@ result = subprocess.Popen(["touch"] + flist, stdout=subprocess.PIPE, stderr=subp
 
 output, error = result.communicate()
 
-print("Output:")
-print(output)
-
-print("Error:")
-print(error)
+if result.returncode == 0:
+    print("✅ 25 files have been created successfully.")
+else:
+    print("❌ File creation failed.")
+    print("Error:", error)
