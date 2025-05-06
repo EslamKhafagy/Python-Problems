@@ -84,3 +84,12 @@ The trunk is used for breathing, bringing food and water to the mouth, and grasp
 19- Python script to create 25 file from f1 to f25.
 
 20- Check if you have an account with name ITI in your machine.
+
+21 -  Python Module Challenge:
+   - Create a script that finds and displays prime numbers from 1 to 250
+   - Save the found prime numbers to results.txt file
+   - Test and validate the results in the output file
+   - Save the script and make a note of its location (absolute path) for future reference.
+
+22- Python studend activity to write a script to install and remove packages
+
