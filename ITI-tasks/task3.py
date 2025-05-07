@@ -1,11 +1,12 @@
 #!/bin/python3
 
+# Write a Python program to get the largest number from a list.
 
-# Write a Python program to get the largest number from a list.--> [3,7,10,18,20,70,3,16,9]
+# Take the list from the user
+user_input = input("Enter a list of numbers separated by spaces: ")
 
-
-
-setList = [3,7,10,18,20,70,3,16,9]
+# Convert the input string into a list of integers
+setList = [int(x) for x in user_input.split()]
 
 largestNum = setList[0]
 
@@ -13,6 +14,4 @@ for num in setList:
     if num > largestNum:
         largestNum = num
 
-print("The largest number from a list is {}".format(largestNum))
-
-        
+print("The largest number from the list is {}".format(largestNum))

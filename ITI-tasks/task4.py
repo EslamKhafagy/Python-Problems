@@ -1,9 +1,12 @@
 #!/bin/python3
 
+# Write a Python program to remove duplicates from a list.
 
-# Write a Python program to remove duplicates from a list. --> [2,7,2,10,7,15]
+# Take the list from the user
+user_input = input("Enter a list of numbers separated by spaces: ")
 
-taskList = [2,7,2,10,7,15]
+# Convert the input string into a list of integers
+taskList = [int(x) for x in user_input.split()]
 
 special = []
 
@@ -20,4 +23,4 @@ for i in range(len(taskList)):
     if not isDouplicated:
         special.append(taskList[i])
 
-print(special)
+print("List after removing duplicates:", special)

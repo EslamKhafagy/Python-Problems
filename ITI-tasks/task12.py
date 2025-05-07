@@ -1,18 +1,22 @@
 #!/bin/python3
 
+# Write a Python function to print the even numbers from a user list.
 
-# Write a Python function to print the even numbers from a given list.
+# Function to get a valid list of integers from the user
+def get_integer_list():
+    while True:
+        try:
+            user_input = input("Enter a list of integers separated by spaces: ")
+            # Convert the input string into a list of integers
+            integer_list = [int(x) for x in user_input.split()]
+            return integer_list
+        except ValueError:
+            print("Invalid input. Please enter integers only.")
 
-sampleList = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# Get the list from the user
+sampleList = get_integer_list()
 
-# Expected Result : [2, 4, 6, 8]
+# Find even numbers
+evenList = [num for num in sampleList if num % 2 == 0]
 
-
-evenList = []
-
-for i in range(len(sampleList)):
-    if sampleList[i] % 2 == 0:
-        evenList.append(sampleList[i])
-
-print("Even number at the list is: ", evenList)
-
+print("Even numbers in the list are: ", evenList)
