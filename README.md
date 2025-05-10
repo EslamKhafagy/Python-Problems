@@ -1,63 +1,51 @@
-# Python Learning Path for DevOps and Cloud Automation
+# Python Tasks for AWS re/Start Program by ITI, Egypt (unofficial)
 
 ## Introduction
-This repository contains my journey learning Python for DevOps and Cloud Automation. As an aspiring DevOps Engineer, Python is essential for automation, infrastructure management, and cloud operations.
+This repository documents my journey of learning Python for DevOps and Cloud Automation during the AWS re/Start program.This repo is designed to help me and anyone struggling with tasks in Python module and don't want to use LLMs.
 
-## Learning Path
-### 1. Python Fundamentals (2-3 weeks)
-- Variables and Data Types
-- Control Flow (if/else, loops)
-- Functions and Modules
-- Error Handling
-- File Operations
-- Object-Oriented Programming
 
-### 2. DevOps-specific Python Skills (3-4 weeks)
-- Working with APIs (REST)
-- JSON/YAML Processing
-- Command Line Arguments
-- System Administration Tasks
-- Log Processing
-- Regular Expressions
+## How to Use This Repository
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/Python-Problems.git
+   cd Python-Problems
 
-### 3. Automation Libraries (4 weeks)
-- Boto3 (AWS Automation)
-- Azure SDK for Python
-- Google Cloud Client Libraries
-- Paramiko (SSH)
-- Fabric (Remote Execution)
-- Ansible Python API
+2. Follow the Learning Path:
+Start with Python Fundamentals and progress through the sections.
+Use the practice projects to apply your knowledge.
 
-### 4. Infrastructure as Code (3-4 weeks)
-- Terraform with Python
-- CloudFormation with Python
-- Pulumi
-- Infrastructure Testing
+3. Run the Code:
+Each section contains Python scripts and examples.
+Use .sh file to run the scripts from 1 to 17: 
+ 
+    ./autoRun.sh
 
-### 5. Containerization & Orchestration (3-4 weeks)
-- Docker SDK for Python
-- Kubernetes Python Client
-- Container Management Scripts
-- CI/CD Pipeline Automation
 
-## Practice Projects
-1. AWS Resource Monitor
-2. Automated Backup Script
-3. Log Analysis Tool
-4. Infrastructure Deployment Automation
-5. Container Health Check System
+### **Contribution Guidelines**
 
-## Useful Resources
-- [Python Official Documentation](https://docs.python.org/)
-- [AWS Python SDK Documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
-- [Python for DevOps Book](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/)
-- [Real Python Tutorials](https://realpython.com/)
+We welcome contributions to improve this repository! Here's how you can contribute:
 
-## Goals
-- Automate repetitive tasks
-- Manage cloud infrastructure
-- Monitor and maintain systems
-- Implement CI/CD pipelines
-- Solve complex DevOps challenges
+1. Fork the Repository
+2. Clone Your Fork:
+```bash 
+git clone https://github.com/your-username/Python-Problems.git
+cd Python-Problems
+```
 
-Remember to practice regularly and build projects that solve real DevOps problems!
+3. Create a Branch:
+ ```bash
+ git checkout -b feature/your-feature-name
+```
+
+ 4. Make Changes: Add your improvements or new content.
+ 5. Commit and Push
+ 6. Submit a Pull Request
+
+
+
+## Contact
+If you have any questions or suggestions, feel free to open an issue or reach out via email at eslamkhafagy505@gmail.com, or ah.yassin@gmai.com.
+
+## License
+
+This repository is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License. You are free to use, modify, and distribute the code, provided proper attribution is given.
