@@ -17,9 +17,9 @@ Use the practice projects to apply your knowledge.
 3. Run the Code:
 Each section contains Python scripts and examples.
 Use .sh file to run the scripts from 1 to 17: 
- 
+ ```bash
     ./autoRun.sh
-
+```
 
 ### **Contribution Guidelines**
 
