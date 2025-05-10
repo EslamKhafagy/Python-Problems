@@ -8,7 +8,7 @@ This repository documents my journey of learning Python for DevOps and Cloud Aut
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/your-username/Python-Problems.git
-   cd Python-Problems
+   cd Python-Problems/solved_tasks/
 
 2. Follow the Learning Path:
 Start with Python Fundamentals and progress through the sections.
