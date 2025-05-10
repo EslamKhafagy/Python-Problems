@@ -44,7 +44,7 @@ cd Python-Problems
 
 
 ## Contact
-If you have any questions or suggestions, feel free to open an issue or reach out via email at eslamkhafagy505@gmail.com, or ah.yassin@gmai.com.
+If you have any questions or suggestions, feel free to open an issue or reach out via email at eslamkhafagy505@gmail.com, or ah.yassin01@gmail.com.
 
 ## License
 
